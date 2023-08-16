@@ -1,8 +1,8 @@
 const TelegramBot = require( `node-telegram-bot-api` )
 
-const TOKEN = process.env.TOKEN_JANKENPO_TELEGRAM
+const token = process.env.TOKEN_JANKENPO_TELEGRAM
 
-const bot = new TelegramBot( TOKEN, { polling: true } )
+const bot = new TelegramBot( token, { polling: true } )
 
 // event invoked on every message
 bot.on('message', function(userMessage){
