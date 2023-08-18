@@ -4,7 +4,7 @@ Eu rodei o bot localmente (`node index.js`) mas se quiser ele pode facilmente se
 
 O comando acima precisa estar sendo executado para o bot jogar Jankenpo com o usuário, ou seja, se não estiver rodando o comando acima, o bot não irá responder.
 
-Um detalhe: O token que o Telegram exige eu leio da variável de ambiente TOKEN_JANKENPO_TELEGRAM.
+Um detalhe: o token que o Telegram exige eu leio da variável de ambiente TOKEN_JANKENPO_TELEGRAM.
 
 Vídeo de demonstração: https://www.youtube.com/watch?v=0yBryBAzSKQ&feature=youtu.be
 
